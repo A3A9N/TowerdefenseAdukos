@@ -1,4 +1,4 @@
-# TowerDefenseTemplate
+# DefenseTheTown
 Dit is een template wat door jullie te gebruiken is voor het juist inleveren van alle producten voor de Towerdefense beroepsopdracht. **Verwijder uiteindelijk de template teksten!**
 
 Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Plaats ook een paar screenshots.
@@ -20,9 +20,7 @@ Bijvoorbeeld:
 
 ## Product 2: "Projectmappen op GitHub"
 
-Je commit de mappenstructuur van je unity project op github en verwijst vanuit je readme naar de root map van je project. Met een netjes en goed gestructureerde mappenstructuur en benamingen van files toon je aan dat je dit leerdoel beheerst. 
-
-Dit is de [ROOT](/MyTowerDefenseGame/) folder van mijn unity project.
+Dit is de [ROOT](https://github.com/A3A9N/TowerdefenseAdukos/tree/main/Assets) folder van mijn unity project.
 
 Zorg dat deze verwijst naar je Develop branch.
 
@@ -30,7 +28,7 @@ Zorg dat deze verwijst naar je Develop branch.
 
 Je maakt in Unity een stabiele “build” van je game waarbij bugs en logs eerst zijn verwijderd. Deze buildfiles upload je in je repository onder releases.  Bij eventuele afwijkingen moeten deze worden gedocumenteerd in de release. (Bijv controller nodig of spelen via netwerk etc..) 
 
-[Release Voorbeeld](https://github.com/erwinhenraat/TowerDefenseTemplate/releases)
+[Release](https://github.com/A3A9N/TowerdefenseAdukos/releases/tag/Alpha)
 
 ## Product 4: Game met Sprites(animations) en Textures 
 
