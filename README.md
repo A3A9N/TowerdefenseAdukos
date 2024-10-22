@@ -23,11 +23,9 @@ Je maakt in Unity een stabiele “build” van je game waarbij bugs en logs eers
 
 ## Product 4: Game met Sprites(animations) en Textures 
 
-De build van je game bevat textures, sprites en sprite animations(bijv particles) die op de juiste manier zijn gebruikt en zorgen voor een goede afwerking van je game.  
+Animaties / Textures met beweging
 
-Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de implementatie van je textures en sprites goed te zien is.
-
-![Textures Sprites](readmeVisuals/texturesSprites.gif)
+![Textures Sprites](https://github.com/A3A9N/TowerdefenseAdukos/blob/main/Assets/Art/Fotos/AnimationS.gif)
 
 ## Product 5: Issues met debug screenshots op GitHub 
 
