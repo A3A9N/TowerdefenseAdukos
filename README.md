@@ -30,7 +30,7 @@ Animaties / Textures met beweging
 ## Product 5: Issues met debug screenshots op GitHub 
 
 Zodra je bugs tegenkomt maak je een issue aan op github. In de issue omschrijf je het probleem en je gaat proberen via breakpoints te achterhalen wat het probleem is. Je maakt screenshot(s) van het debuggen op het moment dat je via de debugger console ziet wat er mis is. Deze screenshots met daarbij uitleg over het probleem en de bijhorende oplossing post je in het bijhorende github issue. 
-[Hier de link naar mijn issues](https://github.com/erwinhenraat/TowerDefenseTemplate/issues/)
+[Hier de link naar mijn issues](https://github.com/A3A9N/TowerdefenseAdukos/issues)
 
 ## Product 6: Game design met onderbouwing 
 
