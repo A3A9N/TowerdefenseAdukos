@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - 
+  - Bullet
   - 
   - 
   - 
@@ -46,4 +46,10 @@ TagManager:
     locked: 0
   - name: Enemies/Attackers
     uniqueID: 1173730429
+    locked: 0
+  - name: Bullet
+    uniqueID: 3567386533
+    locked: 0
+  - name: Enviroment
+    uniqueID: 2625928605
     locked: 0

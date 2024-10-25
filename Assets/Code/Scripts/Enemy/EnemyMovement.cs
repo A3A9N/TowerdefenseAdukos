@@ -6,7 +6,8 @@ public class EnemyMovement : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Rigidbody2D rb;
-    private EnemySpawner enemySpawner; 
+    [SerializeField] private Animator anim; 
+    private EnemySpawner enemySpawner;
 
     [Header("Attributes")]
     [SerializeField] private float moveSpeed = 2f;
@@ -14,7 +15,7 @@ public class EnemyMovement : MonoBehaviour
     private Transform target;
     private int pathIndex = 0;
 
-    public void Initialize(EnemySpawner spawner) 
+    public void Initialize(EnemySpawner spawner)
     {
         enemySpawner = spawner;
     }
@@ -41,12 +42,45 @@ public class EnemyMovement : MonoBehaviour
         {
             target = LevelManager.main.path[pathIndex];
         }
+
+        UpdateAnimation();
     }
 
     private void FixedUpdate()
     {
         Vector2 direction = (target.position - transform.position).normalized;
-
         rb.velocity = direction * moveSpeed;
+    }
+
+    private void UpdateAnimation()
+    {
+        Vector2 direction = (target.position - transform.position).normalized;
+
+        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        {
+            if (direction.x < 0)
+            {
+                anim.Play("RunLinks");
+                transform.localScale = new Vector3(3, 3, 3);
+            }
+            else if (direction.x > 0)
+            {
+                anim.Play("RunLinks");
+                transform.localScale = new Vector3(-3, 3, 3); 
+            }
+        }
+        else
+        {
+            if (direction.y > 0)
+            {
+                anim.Play("RunAchter");
+                transform.localScale = new Vector3(3, 3, 3);
+            }
+            else if (direction.y < 0)
+            {
+                anim.Play("RunVoor");
+                transform.localScale = new Vector3(3, 3, 3);
+            }
+        }
     }
 }
